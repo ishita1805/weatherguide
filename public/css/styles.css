@@ -1,0 +1,64 @@
+body{
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;/* initialize flexbox */
+    flex-direction: column;/*arranges the contents in a column wise mannar, by defsult this property is 'row'*/ 
+    min-height: 100vh;
+}
+
+
+
+.main-content{
+    flex-grow: 1;/*allows an elemet to grow and take the space it needs*/
+    }
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    /* background: blue; */
+    padding: 16px 0;/*inside the element*/
+    margin-top:16px;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+}
+
+h1{
+    font-size: 68px;
+    margin-bottom: 16px;
+
+}
+
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;/*removes underline use none*/
+}
+
+/* below are the class attributes */
+.potrait {
+    width:300px;
+
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 10px;
+
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+     background: #888888;
+    color: whitw;
+    padding: 10px;
+    margin-left: 10px;
+
+} 
