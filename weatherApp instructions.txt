@@ -1,0 +1,23 @@
+1. open command prompt 
+2. cd Desktop >> mkdir WeatherApp >> cd WeatherApp >> npm init -y
+3. open app in VS Code
+4. Install the necessary packages using the following commands: 
+	1. npm install express
+	2. npm install hbs
+	3. npm install nodemon
+		in package.json add << "devStart": "nodemon src/server.js" >> to the scripts object
+		use <<npm run devStart>> to run your app.
+	4. npm install request (tobe used to make api calls)
+5. set up your server
+	include all neccessary modules
+6. set up your first route (index route)
+7. set up a an ajax request to "/weather" route for computing weather info (preventdefault)
+8. Fetch info from weather route and insert in the hbs page
+9. Build the weather api and call it on the weather route
+	functions: geolocation --> takes in the address and converts it into latitude and longitude --> mapbox geocoding api
+		   forecast--> takes in the lat and long values and gives properties like temp, wind gust, humidity  --> climacell realtime weather api
+10. Send weather data as response of the route
+
+
+
+
