@@ -7,7 +7,7 @@
 	3. npm install nodemon
 		in package.json add << "devStart": "nodemon src/server.js" >> to the scripts object
 		use <<npm run devStart>> to run your app.
-	4. npm install request (tobe used to make api calls)
+	4. npm install request (to be used to make api calls)
 5. set up your server
 	include all neccessary modules
 6. set up your first route (index route)
