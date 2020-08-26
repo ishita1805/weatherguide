@@ -8,7 +8,7 @@ app.set('views', viewsDir)
 const port = process.env.PORT || 3000  //for dev deployment
 const publicDir = path.join(__dirname,'../public')  //setting up the public folder 
 app.use(express.static(publicDir))  //app.use middleware
-app.use(bodyParser.json())      //ap.use middleware
+app.use(bodyParser.json())      //app.use middleware
 const urlencodedParser = bodyParser.urlencoded({extended:false})  //for making post requests
 const forecast = require('./utils/forecast.js') //importing functions
 const geocode = require('./utils/geocode.js')
@@ -20,7 +20,7 @@ app.get('/',(req,res)=>{
     res.render('index',{title,name}) 
 })
 
-//post request to send user search
+//get request to send user search
 app.get('/weather',async(req,res)=>{
     var loc = req.query.loc
     geocode(loc, (error,data)=>{
