@@ -12,7 +12,7 @@ const forecast = (lat,long,loc,callback)=>{
       },
       headers: {
         'x-rapidapi-host': 'community-open-weather-map.p.rapidapi.com',
-        'x-rapidapi-key': '235267e564msh20e0134e96b129ap1e8216jsn73536d74a64e',
+        'x-rapidapi-key': 'Your API key goes here',
         useQueryString: true
       }
     };
